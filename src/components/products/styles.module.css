@@ -1,0 +1,17 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 300px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+}

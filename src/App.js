@@ -3,13 +3,15 @@ import "./App.css";
 import useDowellLogin from "./useDowellLogin";
 import { Route, Routes } from "react-router-dom";
 import Login from "./components/Login";
+import Products from "./components/products/Products";
 
 function App() {
-  useDowellLogin();
+  /*   useDowellLogin(); */
 
   return (
     <Routes>
-      <Route path={"/"} element={<Login />} />
+      {/*  <Route path={"/"} element={<Login />} /> */}
+      <Route path={"/"} element={<Products />} />
     </Routes>
   );
 }
